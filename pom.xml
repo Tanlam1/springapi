@@ -8,11 +8,11 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.binh</groupId>
-	<artifactId>PS16096_LamNhutTan_ASM</artifactId>
+	<artifactId>springapi</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>PS16096_LamNhutTan_ASM</name>
-	<description>PS16096_LamNhutTan_ASM</description>
+	<name>springapi</name>
+	<description>springapi qwe</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
@@ -96,7 +96,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>		
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.8.1</version>
+				<version>3.10.1</version>
 			</plugin>
 		</plugins>
 	</build>
