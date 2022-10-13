@@ -10,7 +10,7 @@
 	<groupId>com.binh</groupId>
 	<artifactId>java6</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>java6</name>
 	<description>springapi qwe</description>
 	<properties>
@@ -93,7 +93,11 @@
 					</excludes>
 				</configuration>
 			</plugin>
-			
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>		
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.2.5</version>
+			</plugin>
 		</plugins>
 	</build>
 
